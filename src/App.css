@@ -27,13 +27,13 @@ main {
   margin: 50px;
   border-radius: 50%;
   transition: filter 0.25s;
-  background: url("./src/assets/Sketch.png") center / cover;
+  background: url("src/assets/Sketch.png") center / cover;
   transition: background-image 0.5s;
   opacity: 0.85;
 }
 
 .about-me-image:hover {
-  background-image: url("./src/assets/Picture.png");
+  background-image: url("src/assets/Picture.png");
 }
 
 .get-in-touch {
