@@ -27,7 +27,7 @@ main {
   margin: 50px;
   border-radius: 50%;
   transition: filter 0.25s;
-  background: url("public/Sketch.png") center / cover;
+  background: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Sketch.png") center / cover;
   transition: background-image 0.5s;
   opacity: 0.85;
 }
