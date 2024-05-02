@@ -1,42 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+main {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*padding: 100px;*/
+  justify-content: flex-start;
+  background-color: rgb(192, 192, 192);
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-left: 75px;
+  margin-right: 100px;
+  padding: 10px;
+  width: 22.5%;
+  height: 100% - 20px;
+  background-color: rgb(169,169,169);
+}
+
+.about-me-image {
+  height: 35%;
+  aspect-ratio: 1/1;
+  margin: 50px;
+  border-radius: 50%;
+  transition: filter 0.25s;
+  background: url("./src/Assets/Sketch.jpg") center / cover;
+  transition: background-image 0.5s;
+  opacity: 0.85;
+}
+
+.about-me-image:hover {
+  background-image: url("./src/Assets/Picture.jpg");
+}
+
+.get-in-touch {
+  padding: 50px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.icon {
+  height: 50px;
+  padding: 25px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(169,169,169);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: stretch;
+  position: relative;
+  width: calc(50% - 20px);
+  height: calc(50% - 20px);
+  /*width: calc(50% - 0.75rem);*/
+  /*background-color: rgb(127,255,212);*/
+  background-color: rgb(220,220,220);
+  text-decoration: none;
+  transition: filter 0.25s;
 }
 
-.card {
-  padding: 2em;
+.project-tile:hover {
+  filter: brightness(0.75);
 }
 
-.read-the-docs {
-  color: #888;
+.project-details {
+  padding: 50% 1.5rem 0;
+  background: linear-gradient(to bottom, transparent, #000);
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.project-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* width: 250px */
 }
