@@ -31,8 +31,20 @@ export const projects: Project[] = [
     },
     /*
     {
+        name: "__Bookish__",
+        description: "A website created in C# through MVC",
+        image: "",
+        link: "#",
+    },
+    {
         name: "__Dani's Bakery__",
-        description: "A website connected to a database in C#",
+        description: "A website created in C# through MVC",
+        image: "",
+        link: "#",
+    },
+    {
+        name: "__What's for Dinner?__",
+        description: "A social media platform",
         image: "",
         link: "#",
     },
