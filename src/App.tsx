@@ -13,7 +13,7 @@ function App() {
           <li>In the career changing journey to IT</li>
           <li>Enjoying coding at TechSwitch</li>
           <li>JavaScript, React, HTML, CSS, C#, SQL</li>
-          <li>Vegetarian, cyclist, baker</li>
+          <li>Vegetarian, cyclist, board-games player</li>
         </p>
         <div className="get-in-touch">
          <h3>Get in touch!</h3>
