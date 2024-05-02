@@ -6,7 +6,7 @@ function App() {
     <main>
       <div className="about-me-container">
         <h1>__DANIELA PARK__</h1>
-        <h2>_Junior Software Developer_</h2>
+        <h2>Junior Software Developer</h2>
         <div role="image" className="about-me-image" aria-label="sketch"></div>
         <p>
           <li>A former architect</li>
@@ -17,8 +17,8 @@ function App() {
         </p>
         <div className="get-in-touch">
          <h3>Get in touch!</h3>
-          <a href="https://github.com/daniela-park"><img className="icon" src="src\Assets\GitHub.png" alt="Github icon"/></a>
-          <a href="https://www.linkedin.com/in/daniela-park/"><img className="icon" src="src\Assets\Linkedin.png" alt="Linkedin icon"/></a>
+          <a href="https://github.com/daniela-park"><img className="icon" src="./src/Assets/GitHub.png" alt="Github icon"/></a>
+          <a href="https://www.linkedin.com/in/daniela-park/"><img className="icon" src="./src/Assets/Linkedin.png" alt="Linkedin icon"/></a>
         </div>
       </div>
 
