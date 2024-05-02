@@ -1,8 +1,8 @@
 import Project from "../Models/Project"
-import MarsMissionImg from "../Assets/MarsMission.png"
-import PhotoViewerImg from "../Assets/PhotoViewerDarker.png"
-import BusBoardImg from "../Assets/BusBoard.png"
-import PokemonpediaImg from "../Assets/Pokemonpedia.png"
+import MarsMissionImg from "../assets/MarsMission.png"
+import PhotoViewerImg from "../assets/PhotoViewerDarker.png"
+import BusBoardImg from "../assets/BusBoard.png"
+import PokemonpediaImg from "../assets/Pokemonpedia.png"
 
 export const projects: Project[] = [
     {
