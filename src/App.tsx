@@ -17,8 +17,8 @@ function App() {
         </p>
         <div className="get-in-touch">
          <h3>Get in touch!</h3>
-          <a href="https://github.com/daniela-park"><img className="icon" src="public/GitHub.png" alt="Github icon"/></a>
-          <a href="https://www.linkedin.com/in/daniela-park/"><img className="icon" src="public/Linkedin.png" alt="Linkedin icon"/></a>
+          <a href="https://github.com/daniela-park"><img className="icon" src="./public/GitHub.png" alt="Github icon"/></a>
+          <a href="https://www.linkedin.com/in/daniela-park/"><img className="icon" src="./public/Linkedin.png" alt="Linkedin icon"/></a>
         </div>
       </div>
 
