@@ -1,7 +1,7 @@
 import "./App.css"
 import { projects } from "./Data/projects"
-import GitHubLogo from "../assets/GitHub.png"
-import LinkedinLogo from "../assets/Linkedin.png"
+import GitHubLogo from "./src/assets/GitHub.png"
+import LinkedinLogo from "./src/assets/Linkedin.png"
 
 function App() {
   return (
