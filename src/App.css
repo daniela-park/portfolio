@@ -21,7 +21,7 @@ main {
 }
 
 .about-me-image {
-  width: 82.5%;
+  height: 35%;
   aspect-ratio: 1/1;
   margin: 50px;
   border-radius: 50%;
