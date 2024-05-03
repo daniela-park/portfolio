@@ -29,7 +29,7 @@ export const projects: Project[] = [
         name: "__Dani's Bakery__",
         description: "A website created in C# through MVC",
         image: BakeryImg,
-        link: "#",
+        link: "https://dpbakery.azurewebsites.net/",
     },
     {
         name: "__What's for Dinner?__",
