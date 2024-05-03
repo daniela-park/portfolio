@@ -32,10 +32,22 @@ main {
   background: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Sketch.png") center / cover;
   transition: background-image 0.5s;
   opacity: 0.85;
+  animation-name: sketchToPicture;
+  animation-duration: 5s;
 }
 
 .about-me-image:hover {
   background-image: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Picture.png");
+}
+
+/* @keyframes sketchToPicture {
+  from {background: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Sketch.png")};
+  to {background-image: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Picture.png")}
+} */
+
+@keyframes sketchToPicture {
+  from {background-color: white;}
+  to {background-image: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Picture.png")}
 }
 
 .get-in-touch {
