@@ -11,6 +11,10 @@ main {
   background-color: rgb(192, 192, 192);
 }
 
+@media screen and (min-width: 480px) {
+  #main {margin-left: 216px;}
+}
+
 .about-me-container {
   display: flex;
   flex-direction: column;
@@ -20,13 +24,19 @@ main {
   margin-right: 75px;
   width: 22.5%;
   height: 100%;
+  padding: 15px;
   background-color: rgb(169,169,169);
 }
 
+.centered-text {
+  text-align: center;
+}
+
 .about-me-image {
-  height: 35%;
+  height: 100%;
+  /* width: calc(100% - 50px); */
   aspect-ratio: 1/1;
-  margin: 50px;
+  /* margin: 50px; */
   border-radius: 50%;
   transition: filter 0.25s;
   background: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Sketch.png") center / cover;
@@ -34,15 +44,11 @@ main {
   opacity: 0.85;
   animation-name: sketchToPicture;
   animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
-.about-me-image:hover {
+/* .about-me-image:hover {
   background-image: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Picture.png");
-}
-
-/* @keyframes sketchToPicture {
-  from {background: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Sketch.png")};
-  to {background-image: url("C:/Users/D/Desktop/TechSwitch/Portfolio/public/Picture.png")}
 } */
 
 @keyframes sketchToPicture {
@@ -62,6 +68,7 @@ main {
 
 .projects-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -77,8 +84,8 @@ main {
   justify-content: end;
   align-items: stretch;
   position: relative;
-  width: calc(33% - 20px);
-  height: calc(33% - 20px);
+  width: calc(33% - 25px);
+  height: calc(33% - 25px);
   background-color: rgb(220,220,220);
   text-decoration: none;
   transition: filter 0.25s;

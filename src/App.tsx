@@ -7,8 +7,8 @@ function App() {
   return (
     <main>
       <div className="about-me-container">
-        <h1>__DANIELA PARK__</h1>
-        <h2>Junior Software Developer</h2>
+        <h1 className="centered-text">__DANIELA PARK__</h1>
+        <h2 className="centered-text">Junior Software Developer</h2>
         <div role="image" className="about-me-image" aria-label="sketch"></div>
         <p>
           <li>A former architect</li>
