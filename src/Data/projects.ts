@@ -2,6 +2,8 @@ import Project from "../Models/Project"
 import MarsMissionImg from "../assets/MarsMission.png"
 import PhotoViewerImg from "../assets/PhotoViewerDarker.png"
 import BusBoardImg from "../assets/BusBoard.png"
+import BakeryImg from "../assets/Bakery.png"
+import WhatsForDinnerImg from "../assets/WhatsForDinner.png"
 import PokemonpediaImg from "../assets/Pokemonpedia.png"
 
 export const projects: Project[] = [
@@ -24,6 +26,18 @@ export const projects: Project[] = [
         link: "https://daniela-park.github.io/BusBoard/",
     },
     {
+        name: "__Dani's Bakery__",
+        description: "A website created in C# through MVC",
+        image: BakeryImg,
+        link: "#",
+    },
+    {
+        name: "__What's for Dinner?__",
+        description: "An application that generates random dishes",
+        image: WhatsForDinnerImg,
+        link: "https://daniela-park.github.io/WhatsForDinner/",
+    },
+    {
         name: "__Pokemonpedia__",
         description: "A website that displays Pokemon data",
         image: PokemonpediaImg,
@@ -33,18 +47,6 @@ export const projects: Project[] = [
     {
         name: "__Bookish__",
         description: "A website created in C# through MVC",
-        image: "",
-        link: "#",
-    },
-    {
-        name: "__Dani's Bakery__",
-        description: "A website created in C# through MVC",
-        image: "",
-        link: "#",
-    },
-    {
-        name: "__What's for Dinner?__",
-        description: "A social media platform",
         image: "",
         link: "#",
     },

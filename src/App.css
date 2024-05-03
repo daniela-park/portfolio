@@ -61,7 +61,7 @@ main {
   justify-content: end;
   align-items: stretch;
   position: relative;
-  width: calc(50% - 20px);
+  width: calc(33% - 20px);
   height: calc(50% - 20px);
   background-color: rgb(220,220,220);
   text-decoration: none;
