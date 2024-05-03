@@ -2,6 +2,9 @@ main {
   display: flex;
   align-items: stretch;
   height: 100%;
+  width: 100%;
+  min-width: 50%;
+  overflow: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /*padding: 100px;*/
   justify-content: flex-start;
@@ -11,7 +14,7 @@ main {
 .about-me-container {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   margin-left: 75px;
   margin-right: 75px;
@@ -49,6 +52,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
   gap: 35px;
   width: 75%;
   padding: 35px;
@@ -62,7 +66,7 @@ main {
   align-items: stretch;
   position: relative;
   width: calc(33% - 20px);
-  height: calc(50% - 20px);
+  height: calc(33% - 20px);
   background-color: rgb(220,220,220);
   text-decoration: none;
   transition: filter 0.25s;
