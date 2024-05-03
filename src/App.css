@@ -11,8 +11,11 @@ main {
   background-color: rgb(192, 192, 192);
 }
 
-@media screen and (min-width: 480px) {
-  #main {margin-left: 216px;}
+@media (min-width: 680px) {
+  #profileImage {
+    height: 75em;
+    width: auto;
+  }
 }
 
 .about-me-container {
@@ -25,6 +28,7 @@ main {
   width: 22.5%;
   height: 100%;
   padding: 15px;
+  /* padding: calc(8px + 1.5625vw); */
   background-color: rgb(169,169,169);
 }
 
@@ -43,6 +47,7 @@ main {
   transition: background-image 0.5s;
   opacity: 0.85;
   animation-name: sketchToPicture;
+  animation-delay: 2.5s;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
@@ -62,7 +67,7 @@ main {
 }
 
 .icon {
-  height: 50px;
+  height: 35px;
   padding: 25px;
 }
 
@@ -89,6 +94,8 @@ main {
   background-color: rgb(220,220,220);
   text-decoration: none;
   transition: filter 0.25s;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .project-tile:hover {
