@@ -3,6 +3,8 @@ interface Project {
     description: string
     image: string
     link: string
+    stacks: string
+    repository: string
 }
 
 export default Project

@@ -1,14 +1,14 @@
 import "./App.css"
 import { projects } from "./Data/projects"
-import GitHubLogo from "/public/GitHub.png"
+import GitHubLogo from "/GitHub.png"
 import LinkedinLogo from "/public/Linkedin.png"
 
 function App() {
   return (
     <main>
       <div className="about-me-container">
-        <h1 className="centered-text">__DANIELA PARK__</h1>
-        <h2 className="centered-text">Junior Software Developer</h2>
+        <h1>__DANIELA PARK__</h1>
+        <h2>Junior Software Developer</h2>
         <div role="image" className="about-me-image" id="profileImage" aria-label="sketch"></div>
         <p>
           <li>A former architect</li>
@@ -36,6 +36,12 @@ function App() {
           </a>
         ))}
       </div>
+
+      <div className="footer">
+         <h3>Get in touch!</h3>
+          <a href="https://github.com/daniela-park"><img src={GitHubLogo} alt="Github icon"/></a>
+          <a href="https://www.linkedin.com/in/daniela-park/"><img src={LinkedinLogo} alt="Linkedin icon"/></a>
+        </div>
     </main>
   )
 }

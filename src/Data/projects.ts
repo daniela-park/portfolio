@@ -12,36 +12,48 @@ export const projects: Project[] = [
         description: "A web-application based on NASA's API",
         image: MarsMissionImg,
         link: "https://daniela-park.github.io/mars-mission/",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "https://github.com/daniela-park/mars-mission"
     },
     {
         name: "__Photo Viewer__",
         description: "A web-based application to visualise images",
         image: PhotoViewerImg,
         link: "https://daniela-park.github.io/PhotoViewer/",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "https://github.com/daniela-park/PhotoViewer"
     },
     {
         name: "__Bus Board__",
         description: "A web-application based on TfL's API",
         image: BusBoardImg,
         link: "https://daniela-park.github.io/BusBoard/",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "https://github.com/daniela-park/BusBoard"
     },
     {
         name: "__Dani's Bakery__",
         description: "A website created in C# through MVC",
         image: BakeryImg,
         link: "https://dpbakery.azurewebsites.net/",
+        stacks: "C#, HTML, CSS",
+        repository: "#"
     },
     {
         name: "__What's for Dinner?__",
         description: "An application that generates random dishes",
         image: WhatsForDinnerImg,
         link: "https://daniela-park.github.io/WhatsForDinner/",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "https://github.com/daniela-park/WhatsForDinner"
     },
     {
         name: "__Pokemonpedia__",
         description: "A website that displays Pokemon data",
         image: PokemonpediaImg,
         link: "https://daniela-park.github.io/Pokemonpedia/",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "https://github.com/daniela-park/mars-mission"
     },
     /*
     {
@@ -49,12 +61,16 @@ export const projects: Project[] = [
         description: "A website created in C# through MVC",
         image: "",
         link: "#",
+        stacks: "C#, HTML, CSS",
+        repository: "#"
     },
     {
         name: "__MyFace__",
         description: "A social media platform",
         image: "",
         link: "#",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "h#n"
     },
     */
 ]
