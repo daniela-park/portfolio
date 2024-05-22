@@ -8,13 +8,12 @@ function App() {
     <main>
       <div className="about-me-container">
         <h1>__DANIELA PARK__</h1>
-        <h2>Junior Software Developer</h2>
         <div role="image" className="about-me-image" id="profileImage" aria-label="sketch"></div>
         <p>
-          <li>A former architect</li>
-          <li>In a career changing journey to IT</li>
+          <li>Junior full-stack software developer</li>
           <li>Enjoying coding at TechSwitch</li>
           <li>JavaScript, React, HTML, CSS, C#, SQL</li>
+          <li>A former architect from the construction industry</li>
           <li>Vegetarian, cyclist, board-games player</li>
         </p>
         <div className="get-in-touch">
