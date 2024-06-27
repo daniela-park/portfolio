@@ -2,9 +2,11 @@ import Project from "../Models/Project"
 import MarsMissionImg from "../assets/MarsMission.png"
 import PhotoViewerImg from "../assets/PhotoViewerDarker.png"
 import BusBoardImg from "../assets/BusBoard.png"
+import GirraphicImg from "../assets/GirraphicTablet.png"
 import BakeryImg from "../assets/Bakery.png"
 import WhatsForDinnerImg from "../assets/WhatsForDinner.png"
 import PokemonpediaImg from "../assets/Pokemonpedia.png"
+import JavaThreadsImg from "../assets/JavaThreads.jpg"
 
 export const projects: Project[] = [
     {
@@ -32,6 +34,14 @@ export const projects: Project[] = [
         repository: "https://github.com/daniela-park/BusBoard"
     },
     {
+        name: "__Marathon Results__",
+        description: "A React app displaying marathon results",
+        image: GirraphicImg,
+        link: "https://daniela-park.github.io/Girraphic/",
+        stacks: "JavaScript, React, HTML, CSS",
+        repository: "https://github.com/daniela-park/Girraphic"
+    },
+    {
         name: "__Dani's Bakery__",
         description: "A website created in C# through MVC",
         image: BakeryImg,
@@ -53,7 +63,15 @@ export const projects: Project[] = [
         image: PokemonpediaImg,
         link: "https://daniela-park.github.io/Pokemonpedia/",
         stacks: "JavaScript, React, HTML, CSS",
-        repository: "https://github.com/daniela-park/mars-mission"
+        repository: "https://github.com/daniela-park/Pokemonpedia"
+    },
+    {
+        name: "__Java Threads__",
+        description: "Multithreading in Java",
+        image: JavaThreadsImg,
+        link: "https://github.com/daniela-park/JavaThreads",
+        stacks: "Java",
+        repository: "https://github.com/daniela-park/JavaThreads"
     },
     /*
     {
@@ -70,7 +88,7 @@ export const projects: Project[] = [
         image: "",
         link: "#",
         stacks: "JavaScript, React, HTML, CSS",
-        repository: "h#n"
+        repository: "#"
     },
     */
 ]
