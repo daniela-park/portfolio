@@ -12,7 +12,7 @@ function App() {
         <p>
           <li>Junior full-stack software developer</li>
           <li>Enjoying coding at TechSwitch</li>
-          <li>JavaScript, React, HTML, CSS, C#, SQL</li>
+          <li>JavaScript, React, HTML, CSS, C#, SQL, Java</li>
           <li>A former architect from the construction industry</li>
           <li>Vegetarian, cyclist, board-games player</li>
         </p>
