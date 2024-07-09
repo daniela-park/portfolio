@@ -1,11 +1,11 @@
 import Project from "../Models/Project"
-import MarsMissionImg from "../assets/MarsMission.png"
-import PhotoViewerImg from "../assets/PhotoViewerDarker.png"
-import BusBoardImg from "../assets/BusBoard.png"
-import GirraphicImg from "../assets/GirraphicTablet.png"
+import MarsMissionImg from "../assets/MarsMission.jpg"
+import PhotoViewerImg from "../assets/PhotoViewerDarker.jpg"
+import BusBoardImg from "../assets/BusBoard.jpg"
+import GirraphicImg from "../assets/GirraphicTablet.jpg"
 import BakeryImg from "../assets/Bakery.png"
 import WhatsForDinnerImg from "../assets/WhatsForDinner.png"
-import PokemonpediaImg from "../assets/Pokemonpedia.png"
+import PokemonpediaImg from "../assets/Pokemonpedia.jpg"
 import JavaThreadsImg from "../assets/JavaThreads.jpg"
 
 export const projects: Project[] = [
