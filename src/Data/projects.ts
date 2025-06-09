@@ -7,7 +7,7 @@ import BakeryImg from "../assets/Bakery.png"
 import WhatsForDinnerImg from "../assets/WhatsForDinner.png"
 import PokemonpediaImg from "../assets/Pokemonpedia.jpg"
 import TongdakImg from "../assets/Tongdak.png"
-import JavaThreadsImg from "../assets/JavaThreads.jpg"
+/* import JavaThreadsImg from "../assets/JavaThreads.jpg" */
 
 export const projects: Project[] = [
     {
