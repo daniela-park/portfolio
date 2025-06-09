@@ -6,6 +6,7 @@ import GirraphicImg from "../assets/GirraphicTablet.jpg"
 import BakeryImg from "../assets/Bakery.png"
 import WhatsForDinnerImg from "../assets/WhatsForDinner.png"
 import PokemonpediaImg from "../assets/Pokemonpedia.jpg"
+import TongdakImg from "../assets/Tongdak.png"
 import JavaThreadsImg from "../assets/JavaThreads.jpg"
 
 export const projects: Project[] = [
@@ -66,6 +67,15 @@ export const projects: Project[] = [
         repository: "https://github.com/daniela-park/Pokemonpedia"
     },
     {
+        name: "__Tongdak__",
+        description: "Tongdak's website",
+        image: TongdakImg,
+        link: "https://daniela-park.github.io/tongdak/",
+        stacks: "React, CSS",
+        repository: "https://github.com/daniela-park/tongdak"
+    },
+    /*
+    {
         name: "__Java Threads__",
         description: "Multithreading in Java",
         image: JavaThreadsImg,
@@ -73,7 +83,6 @@ export const projects: Project[] = [
         stacks: "Java",
         repository: "https://github.com/daniela-park/JavaThreads"
     },
-    /*
     {
         name: "__Bookish__",
         description: "A website created in C# through MVC",
